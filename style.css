@@ -36,3 +36,82 @@ header .logo{
     color: #333;
     font-weight: bolder;
 }
+
+header .logo span{
+    color:var(--pink)
+}
+
+header .navbar a{
+      font-size: 2sem;
+      padding: 0 1.5sem;
+      color: #666;
+      
+}
+
+header .navbar a:hover{
+    color: var(--pink);
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+     color: var(--pink);   
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: 5rem 1.5rem;
+    cursor: pointer;
+    border: 1rem solid rgba(0,0,0,3);
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  media queries  */
+@me (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }   
+    header{
+        padding: 2rem;
+    }
+}
+
+@me (max-width:768px){
+
+    html .fa-bars{
+        display: block;
+    }  
+} 
+
