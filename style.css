@@ -23,6 +23,19 @@ section{
     padding: 2rem 9%;
 }
 
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, 05);
+}
+
+.heading span{
+    color: #333;
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -126,6 +139,22 @@ header .fa-bars{
     line-height: 1.5;
 }
 
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about .row .video-container{
+    flex:1 1 40rem;
+    position: relative;
+}
+
+.about .row .video-container
+
 
 
 
@@ -159,6 +188,9 @@ header .fa-bars{
     section{
         padding: 2rem;
     }
+    .home{
+        background-position: left;
+    }
 }
 
 @media (max-width:768px){
@@ -186,11 +218,23 @@ header .fa-bars{
         border: .1rem solid rgba(0,0,0,1);
         display: block;
     }
+
+    .home .content h3{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 2.5rem;
+    }
 } 
 
 @media (max-width:450px){
 
     html{
         font-size: 50%;
-    }   
+    }
+    
+    .heading{
+        font-size: 3rem;
+    }
 }
