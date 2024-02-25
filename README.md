@@ -23,3 +23,9 @@ Create an account to personalize your shopping experience. Save your favorite fl
 ### 5. Search Functionality
 
 Use the search bar to find specific flowers or browse by occasion. The website provides quick and efficient results, making it easy to find the perfect floral arrangement.
+
+## Technologies Used
+
+- HTML
+- CSS
+
